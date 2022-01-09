@@ -38,7 +38,7 @@ city(json)
 
 ## JSON to OpenStruct object
 
-we can simplyfy this by using **[Safe navigation operator]()** and OpenStruct class.
+we can simplyfy this by using **[Safe navigation operator](/posts/ruby-safe-navigation-operator/)** and OpenStruct class.
 
 ```ruby
 res = JSON.parse(json, object_class: OpenStruct)
