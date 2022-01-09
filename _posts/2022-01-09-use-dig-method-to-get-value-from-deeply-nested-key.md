@@ -13,14 +13,14 @@ Learn how to extracts the nested value specified by the sequence of `key` object
 Lets say we have following Hash to work on, this can be a rails `params` object or any other `Hash` object
 
 ```ruby
-params = { name: "John", address: { primary: { city: 'Seattle' } } }
+params = { name: "John", address: { primary: { city: 'Pokhara' } } }
 ```
 
 And we want to get the value of `city` from the given object, and one way to do is:
 
 ```ruby
 params[:address] && params[:address][:primary] && params[:address][:primary][:city]
-=> "Seattle"
+=> "Pokhara"
 ```
 
 we need to do that, because if lets say `address` or `primary` key is empty than we will get
@@ -33,7 +33,7 @@ And ruby has a clean and easy way to extract such values by using `.dig` method
 
 ```ruby
 params.dig(:address, :primary, :city)
-=> "Seattle"
+=> "Pokhara"
 ```
 
 In this case, if `address` or `primary` key do not exists, or have `nil` as a value, than it will return `nil` as result without throwing error.
