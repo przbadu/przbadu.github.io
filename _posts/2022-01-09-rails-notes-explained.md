@@ -18,3 +18,6 @@ app/controllers/posts_controller.rb:
   * [15] [FIXME] new action have bad code, refactor it!
 ```
 
+## More Info
+
+- [https://www.rubydoc.info/gems/rake-notes/0.2.0/Rake/Notes/SourceAnnotationExtractor](https://www.rubydoc.info/gems/rake-notes/0.2.0/Rake/Notes/SourceAnnotationExtractor)
