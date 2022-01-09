@@ -1,8 +1,7 @@
 ---
-title: Ruby merge vs deep_merge
-date: 2022-01-01 3:13:03 +0545
-categories: [rails, ruby, rails_tips]
-tags: [ruby_on_rails, hash]     # TAG names should always be lowercase
+layout: post
+title: Ruby merge Vs deep_merge
+date: 2022-01-09 15:28 +0545
 ---
 
 Ruby's merge method merges one hash into another, as it's name suggest
@@ -12,7 +11,7 @@ Ruby's merge method merges one hash into another, as it's name suggest
 => {:first_name=>"John", :last_name=>"Doe"}
 ```
 
-Lets say we have following 2 `Hash` objects
+Now lets say we have following 2 `Hash` objects
 
 ```ruby
 user1 = { name: 'John', address: { city: 'City' } }
@@ -35,7 +34,8 @@ user1.deep_merge(user2)
 
 > NOTE: `.deep_merge` is a rails method and `.merge` is a ruby's method
 
-References:
-- https://apidock.com/rails/Hash/deep_merge
-- https://apidock.com/ruby/Hash/merge
+## References:
+
+- [https://apidock.com/rails/Hash/deep_merge](https://apidock.com/rails/Hash/deep_merge)
+- [https://apidock.com/ruby/Hash/merge](https://apidock.com/ruby/Hash/merge)
 
