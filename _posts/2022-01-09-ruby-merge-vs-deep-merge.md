@@ -2,7 +2,13 @@
 layout: post
 title: Ruby merge Vs deep_merge
 date: 2022-01-09 15:28 +0545
+categories: [Tips, RubyOnRails]
+tags: [ruby on rails, hash]
 ---
+
+This post will help you understand the difference between Ruby's `merge` and Rails `deep_merge` method.
+
+# Merge
 
 Ruby's merge method merges one hash into another, as it's name suggest
 
@@ -24,6 +30,8 @@ And if we use `.merge()` this time the result will be:
 user1.merge(user2)
 => {:name=>"John", :address=>{:zip=>"12345"}}
 ```
+
+# Deep Merge
 
 And if we want to merge both `city` and `zip` addresses for the user, then we need to use `.deep_merge()` method
 
