@@ -20,10 +20,10 @@ timezone: Asia/Kathmandu
 
 title: Przbadu | Blog                          # the main title
 
-tagline: Full-Stack Developer, Lets turn your ideas and business problems into web applications. # it will display as the sub-title
+tagline: Full-Stack Developer, I will help you turn your business idea into reality. # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Full-Stack Developer with over 8 years of professional experience, turning client's ideas and business problems into web applications.
+  Full-Stack Developer with over 8 years of professional experience, I help client turn their business ideas into reality.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://przbadu.github.io'
