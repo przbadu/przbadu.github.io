@@ -2,11 +2,11 @@
 layout: post
 title: filter empty element from an array
 date: 2022-01-10 11:07 +0545
-categories: [Tips, RubyOnRails, Javascript]
+categories: [Tips, Javascript]
 tags: [ruby on rails, javascript, hash]
 ---
 
-In this post we will see how we can filter array of element without empty element which can be `null` or `''` 
+In this post we will see how we can filter array of element without empty element which can be `null` or `''`
 
 # Using javascript
 
@@ -43,11 +43,11 @@ arr = ['apple', 'banana', '', 'mango', nil]
 
 
 ```ruby
-# using blank? 
+# using blank?
 arr.reject &:blank?
 => ["apple", "banana", "mango"]
 
-# using empty? 
+# using empty?
 arr.reject &:empty?
 => undefined method 'empty?' for nil:NilClass
 
