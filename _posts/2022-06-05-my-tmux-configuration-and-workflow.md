@@ -208,5 +208,47 @@ Here are the shortcut keys as per my configurations:
 | prefix + h    | Quickly view `htop` info          |
 | prefix + r    | Reload tmux configuration changes |
 
+## Tmux workflow
 
+With tmux you can easily build a workflow for daily task you do inside tmux terminal.
+Here is my workflow for my rails application that I always need to do before starting my work.
+
+You can copy this file either in one of the executable PATH directory or you can also set and alias command to run it.
+
+__Create alias__
+
+I use zsh, so I will add it inside `~/.zshrc` you can put it inside `~/.bashrc` or any shell you are using
+
+```sh
+alias tmuxworkflow="sh ~/.config/tmux/myworkflow.sh"
+```
+
+Now create a file inside `~/.config/tmux/myworkflow.sh` and add your configuration:
+
+```sh
+SESSION=work
+
+tmux new-session -d -s $SESSION
+tmux new-window -t $SESSION:1 -n 'webserver'
+
+tmux select-window -t $SESSION:1
+tmux send-keys 'rails server' C-m
+
+tmux split-window -h
+tmux send-keys 'bundle exec sidekiq' C-m
+
+tmux split-window -v
+tmux send-keys 'elasticsearch' C-m
+
+tmux attach -t $SESSION
+```
+
+Basically this will
+
+- create a new tmux session and name it `work`
+- Create 2 windows
+- Switch to first window
+- Then in the first window it will run `rails server`
+- Add horizontal split pane and run `bundle exec sidekiq` in newly splitted pane
+- Add vertical split pane and run `elasticsearch` server in that pane
 
