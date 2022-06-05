@@ -3,7 +3,7 @@ layout: post
 title: my neovim configuration
 date: 2022-06-05 09:37 +0545
 categories: [vim]
-tags: [vim, ide]
+tags: [vim, ide, rubyonrails, rails, javascript]
 ---
 
 ## Why vim and neovim?
