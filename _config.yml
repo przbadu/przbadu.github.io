@@ -53,7 +53,7 @@ google_site_verification: o4nEmV_E1euvacULBhaIa5OiaS1245T1K-Xp74nZvz0 # change t
 
 
 google_analytics:
-  id: ''              # fill in your Google Analytics ID
+  id: 'G-H72HW07T2Y'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
