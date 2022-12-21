@@ -10,13 +10,13 @@ tags: [vim, ide, rubyonrails, rails, javascript]
 
 [Vim](vim.org) is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
 
-[vim](vim.org) is highly customizable and it is the default fallback editor in most of the linux systems. If you are server admin, then vim can be a great tool for you. If you are a programmer, it already supports 100s of programming languages.
+[vim](https://vim.org) is highly customizable and it is the default fallback editor in most of the linux systems. If you are server admin, then vim can be a great tool for you. If you are a programmer, it already supports 100s of programming languages.
 
-> Recently I have switched  from [vim](vim.org) to [neovim](neovim.io) and neovim is fully compatible with Vim's editing model and Vimscript.
+> Recently I have switched  from [vim](https://vim.org) to [neovim](https://neovim.io) and neovim is fully compatible with Vim's editing model and Vimscript.
 
 ## How to install neovim?
 
-If you want to use [vim](vim.org), it is already available in most of the linux OS. you can follow https://vim.org to download and install it.
+If you want to use [vim](https://vim.org), it is already available in most of the linux OS. you can follow https://vim.org to download and install it.
 
 We are going to use [Lunarvim](https://www.lunarvim.org/#opinionated) for our nvim IDE. It has lots of great feature which you can find in the official website. 
 
