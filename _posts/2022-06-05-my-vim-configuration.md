@@ -8,7 +8,7 @@ tags: [vim, ide, rubyonrails, rails, javascript]
 
 ## Why vim and neovim?
 
-[Vim](vim.org) is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+[Vim](https://vim.org) is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
 
 [vim](https://vim.org) is highly customizable and it is the default fallback editor in most of the linux systems. If you are server admin, then vim can be a great tool for you. If you are a programmer, it already supports 100s of programming languages.
 
