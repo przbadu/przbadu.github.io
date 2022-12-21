@@ -63,6 +63,8 @@ volumes:
 docker-compose -f <filename.yml> up -d
 ```
 
+And then visit http://localhost:5601 to see kibana dashbaord. Default password is `elastic`
+
 - `-f` option allow us to provide file name if file is different than `docker-compose.yml`.
 - `-d` option will run containers in deamon
 
