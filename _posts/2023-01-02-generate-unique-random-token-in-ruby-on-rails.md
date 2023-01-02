@@ -41,5 +41,4 @@ def generate_token
 end
 ```
 
-I think combining unix timestamp with SecureRandom hex can give more unique token.
-
+I think combining unix timestamp with SecureRandom hex can give more unique token, hence less repetition to match the unique token in database.
