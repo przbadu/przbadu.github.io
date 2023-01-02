@@ -2,8 +2,8 @@
 layout: post
 title: Run Sidekiq as systemd process
 date: 2022-01-10 18:13 +0545
-categories: [Blog, RubyOnRails]
-tags: [ruby on rails, javascript, hash]
+categories: [Ruby on Rails, Sidekiq]
+tags: [ruby on rails, sidekiq]
 ---
 
 The simplest way to run Sidekiq in your production server is to use `capistrano-sidekiq` gem, but it is not recommended because Capistrano uses demonization by default so if the Sidekiq process crashes, it will not restart automatically.

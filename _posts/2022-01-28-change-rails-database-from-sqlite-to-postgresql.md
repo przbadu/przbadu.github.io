@@ -2,7 +2,7 @@
 layout: post
 title: change rails database from sqlite to postgresql
 date: 2022-01-28 10:43 +0545
-categories: [Tips, RubyOnRails]
+categories: [Ruby on Rails, ruby]
 tags: [ruby on rails, database]
 ---
 

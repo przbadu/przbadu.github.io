@@ -2,8 +2,8 @@
 layout: post
 title: ruby safe navigation operator (&.)
 date: 2022-01-09 16:30 +0545
-categories: [Tips, RubyOnRails]
-tags: [ruby on rails]
+categories: [Ruby on Rails, Ruby]
+tags: [ruby on rails, ruby]
 ---
 
 This post you will learn about the most interesting addition to Ruby 2.3.0, the Safe Navigation Operator(&.).

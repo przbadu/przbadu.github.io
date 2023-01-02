@@ -2,8 +2,8 @@
 layout: post
 title: convert deeply nested JSON into OpenStruct object
 date: 2022-01-09 16:11 +0545
-categories: [Tips, RubyOnRails]
-tags: [ruby on rails, json, hash]
+categories: [Ruby on Rails, Ruby]
+tags: [ruby on rails, ruby, json, hash]
 ---
 
 This post will help you convert `JSON` objects into an [OpenStruct](https://ruby-doc.org/stdlib-2.5.1/libdoc/ostruct/rdoc/OpenStruct.html) object, which will allow us to extract value directly using `.` dot notation e.g: `json_result.key`

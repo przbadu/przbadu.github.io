@@ -2,8 +2,8 @@
 layout: post
 title: Use Timecop to time travel in testing
 date: 2022-01-11 19:24 +0545
-categories: [Blog, RubyOnRails]
-tags: [ruby on rails, javascript, hash]
+categories: [Ruby on Rails]
+tags: [ruby on rails, ruby, timecop]
 ---
 
 In this post we are going to use **timecop** rubygem to test our `trial_remaining_time` method which actual returns number of days remaining in user's trial plan.

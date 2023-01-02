@@ -2,8 +2,8 @@
 layout: post
 title: Rails Notes Explained
 date: 2022-01-09 15:40 +0545
-categories: [Tips, RubyOnRails]
-tags: [ruby on rails, rake task]
+categories: [Ruby on Rails, Ruby]
+tags: [ruby on rails, ruby, rake task]
 ---
 
 In this post you will learn how to  list down all of your todos, fixme, optimize tags from the rails project.

@@ -2,8 +2,8 @@
 layout: post
 title: My tmux configuration and workflow
 date: 2022-06-05 07:49 +0545
-categories: [cli, tips]
-tags: [cli]
+categories: [Tmux, cli]
+tags: [tmux, ide, cli]
 ---
 
 Follow [tmux wiki](https://github.com/tmux/tmux/wiki) for more information

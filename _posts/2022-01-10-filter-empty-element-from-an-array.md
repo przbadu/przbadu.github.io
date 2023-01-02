@@ -2,8 +2,8 @@
 layout: post
 title: filter empty element from an array
 date: 2022-01-10 11:07 +0545
-categories: [Tips, Javascript]
-tags: [ruby on rails, javascript, hash]
+categories: [Javascript]
+tags: [javascript, array]
 ---
 
 In this post we will see how we can filter array of element without empty element which can be `null` or `''`

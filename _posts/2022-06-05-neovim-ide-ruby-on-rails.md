@@ -2,9 +2,8 @@
 layout: post
 title: Configure Neovim as Ruby on Rails IDE
 date: 2022-06-05 09:37 +0545
-categories: [vim]
+categories: [Vim, IDE]
 tags: [neovim, vim, ide, ruby on rails, javascript]
-categories: [Ruby on Rails, ruby]
 ---
 
 ## Why vim and neovim?

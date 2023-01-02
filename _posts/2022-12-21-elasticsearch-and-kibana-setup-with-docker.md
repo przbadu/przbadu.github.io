@@ -2,7 +2,7 @@
 layout: post
 title: ElasticSearch and Kibana setup with docker
 date: 2022-12-21 18:30 +0545
-categories: [Docker]
+categories: [Docker, elastic search]
 tags: [Elastic search, docker, docker-compose]
 ---
 

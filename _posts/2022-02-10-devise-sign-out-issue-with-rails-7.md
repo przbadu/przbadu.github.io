@@ -2,7 +2,7 @@
 layout: post
 title: Devise sign out issue with rails 7
 date: 2022-02-10 08:35 +0545
-categories: [Tips, RubyOnRails]
+categories: [Ruby on Rails, ruby]
 tags: [ruby on rails, devise]
 ---
 

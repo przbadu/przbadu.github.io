@@ -2,8 +2,8 @@
 layout: post
 title: Ruby merge Vs deep_merge
 date: 2022-01-09 15:28 +0545
-categories: [Tips, RubyOnRails]
-tags: [ruby on rails, hash]
+categories: [Ruby on Rails, Ruby]
+tags: [ruby on rails, ruby, hash]
 ---
 
 This post will help you understand the difference between Ruby's `merge` and Rails `deep_merge` method.

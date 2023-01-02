@@ -2,8 +2,8 @@
 layout: post
 title: Use dig method to get value from deeply nested key
 date: 2022-01-09 15:58 +0545
-categories: [Tips, RubyOnRails]
-tags: [ruby on rails, hash]
+categories: [Ruby on Rails, Ruby]
+tags: [ruby on rails, ruby, hash]
 ---
 
 Learn how to extracts the nested value specified by the sequence of `key` objects by calling `dig` at each step, returning nil if any intermediate step is nil.

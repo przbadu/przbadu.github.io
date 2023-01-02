@@ -2,8 +2,8 @@
 layout: post
 title: Rails count vs size vs length
 date: 2022-01-19 10:24 +0545
-categories: [Tips, RubyOnRails]
-tags: [ruby on rails, performance, count]
+categories: [Ruby on Rails, ruby]
+tags: [ruby on rails, performance, ActiveRecord]
 ---
 
 There are lots of ways to impact performance of your application. Initially when there is less data, everythings looks good, and eventually, when your traffic and active number of users using your application grows, you will start seeing some serious performance problem in your application.
