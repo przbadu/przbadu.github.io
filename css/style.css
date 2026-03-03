@@ -1286,9 +1286,13 @@ button {
   animation: upwork-pulse-glow 2.5s ease-in-out infinite;
 }
 
-.upwork-float__icon svg {
+.upwork-float__icon svg,
+.upwork-float__icon img {
   width: 24px;
   height: 24px;
+  display: block;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 .upwork-float__label {
@@ -1415,7 +1419,8 @@ button {
     height: 24px;
   }
 
-  .upwork-float__icon svg {
+  .upwork-float__icon svg,
+  .upwork-float__icon img {
     width: 20px;
     height: 20px;
   }
