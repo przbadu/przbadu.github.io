@@ -521,10 +521,9 @@ button {
 
 .proof__screenshot {
   margin-top: var(--space-2xl);
-  max-width: var(--container);
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .proof__screenshot-img {
