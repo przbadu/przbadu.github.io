@@ -18,8 +18,8 @@
   --color-amber: #f5a623;
   --color-amber-glow: rgba(245, 166, 35, 0.15);
 
-  --font-display: 'Clash Display', system-ui, sans-serif;
-  --font-body: 'General Sans', system-ui, sans-serif;
+  --font-display: 'JetBrains Mono', monospace;
+  --font-body: 'JetBrains Mono', monospace;
 
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;
